@@ -1,0 +1,28 @@
+{
+	"name": "svelte",
+	"version": "0.0.1",
+	"scripts": {
+		"watch:tailwind": "postcss public/tailwind.css -o static/index.css -w",
+		"build:tailwind": "cross-env NODE_ENV=production postcss public/tailwind.css -o static/index.css",
+		"build": "yarn run build:tailwind && rollup -c",
+		"start": "sirv public",
+		"serve": "serve public -p 80",
+		"dev": "concurrently  \"yarn run watch:tailwind\" \"svelte dev\""
+	},
+	"devDependencies": {
+		"@apollo/client": "^3.2.5",
+		"@beyonk/svelte-carousel": "^2.8.0",
+		"@sveltejs/adapter-node": "0.0.12",
+		"@sveltejs/kit": "0.0.23",
+		"@sveltejs/snowpack-config": "0.0.4",
+		"concurrently": "^5.2.0",
+		"postcss-cli": "^7.1.1",
+		"svelte": "^3.29.0",
+		"svelte-apollo": "^0.4.0",
+		"svelte-feather-icons": "^3.3.0"
+	},
+	"dependencies": {
+		"swiper": "^6.3.5",
+		"tailwindcss": "^1.9.6"
+	}
+}
