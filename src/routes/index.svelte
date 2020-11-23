@@ -7,11 +7,11 @@
   import Food from "$components/ecommerce/Food.svelte";
   import { onMount } from "svelte";
 
-  let Slider;
-  onMount(async () => {
-    const module = await import("$components/Slider.svelte");
-    Slider = module.default;
-  });
+  // let Slider;
+  // onMount(async () => {
+  //   const module = await import("$components/Slider.svelte");
+  //   Slider = module.default;
+  // });
 </script>
 
 <style>

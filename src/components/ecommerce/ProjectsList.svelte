@@ -25,13 +25,13 @@
         class="px-4 pt-4 pb-4 space-y-4 sm:px-6 lg:px-4 xl:px-6 sm:pb-6 lg:pb-4 xl:pb-6">
         <header class="flex items-center justify-between">
           <h2 class="text-lg font-medium leading-6 text-black">Projects</h2>
-          <div
-            class="flex items-center px-4 py-2 text-sm font-medium rounded-md cursor-pointer hover:bg-light-blue-200 hover:text-light-blue-800 group bg-light-blue-100 text-light-blue-600">
+          <button
+            class="flex items-center px-4 py-2 text-sm font-medium text-blue-600 bg-blue-100 rounded-md cursor-pointer hover:bg-blue-200 hover:text-blue-800 group">
             <svg
               width="12"
               height="20"
               fill="currentColor"
-              class="mr-2 group-hover:text-light-blue-600 text-light-blue-500">
+              class="mr-2 text-blue-500 group-hover:text-blue-600">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -39,7 +39,7 @@
                 110-2h3V6a1 1 0 011-1z" />
             </svg>
             New
-          </div>
+          </button>
         </header>
         <form class="relative">
           <svg
@@ -57,13 +57,13 @@
             type="text"
             aria-label="Filter projects"
             placeholder="Filter projects"
-            class="w-full py-2 pl-10 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md focus:border-light-blue-500 focus:outline-none focus:ring-1 focus:ring-light-blue-500" />
+            class="w-full py-2 pl-10 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" />
         </form>
         <ul
           class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
           <li class="">
             <div
-              class="p-4 border border-gray-200 rounded-lg cursor-pointer group hover:bg-light-blue-500 hover:border-transparent hover:shadow-lg">
+              class="p-4 border border-gray-200 rounded-lg cursor-pointer group hover:bg-blue-500 hover:border-transparent hover:shadow-lg">
               <dl
                 class="grid items-center grid-cols-2 grid-rows-2 sm:block lg:grid xl:block">
                 <div>
@@ -76,7 +76,7 @@
                 <div>
                   <dt class="sr-only">Category</dt>
                   <dd
-                    class="text-sm font-medium group-hover:text-light-blue-200 sm:mb-4 lg:mb-0 xl:mb-4">
+                    class="text-sm font-medium group-hover:text-blue-200 sm:mb-4 lg:mb-0 xl:mb-4">
                     Engineering
                   </dd>
                 </div>
@@ -126,7 +126,7 @@
           </li>
           <li class="">
             <div
-              class="p-4 border border-gray-200 rounded-lg cursor-pointer group hover:bg-light-blue-500 hover:border-transparent hover:shadow-lg">
+              class="p-4 border border-gray-200 rounded-lg cursor-pointer group hover:bg-blue-500 hover:border-transparent hover:shadow-lg">
               <dl
                 class="grid items-center grid-cols-2 grid-rows-2 sm:block lg:grid xl:block">
                 <div>
@@ -139,7 +139,7 @@
                 <div>
                   <dt class="sr-only">Category</dt>
                   <dd
-                    class="text-sm font-medium group-hover:text-light-blue-200 sm:mb-4 lg:mb-0 xl:mb-4">
+                    class="text-sm font-medium group-hover:text-blue-200 sm:mb-4 lg:mb-0 xl:mb-4">
                     Human Resources
                   </dd>
                 </div>
@@ -189,7 +189,7 @@
           </li>
           <li class="hidden sm:block lg:hidden xl:block">
             <div
-              class="p-4 border border-gray-200 rounded-lg cursor-pointer group hover:bg-light-blue-500 hover:border-transparent hover:shadow-lg">
+              class="p-4 border border-gray-200 rounded-lg cursor-pointer group hover:bg-blue-500 hover:border-transparent hover:shadow-lg">
               <dl
                 class="grid items-center grid-cols-2 grid-rows-2 sm:block lg:grid xl:block">
                 <div>
@@ -202,7 +202,7 @@
                 <div>
                   <dt class="sr-only">Category</dt>
                   <dd
-                    class="text-sm font-medium group-hover:text-light-blue-200 sm:mb-4 lg:mb-0 xl:mb-4">
+                    class="text-sm font-medium group-hover:text-blue-200 sm:mb-4 lg:mb-0 xl:mb-4">
                     Customer Success
                   </dd>
                 </div>

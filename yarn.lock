@@ -179,26 +179,26 @@
     rollup-plugin-svelte "^6.0.0"
     svelte-hmr "^0.11.2-1"
 
-"@sveltejs/adapter-node@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-0.0.12.tgz#9d4b2861116c50852890cbc59e938f2cd2b45211"
-  integrity sha512-ikQgqGneoqgnA12AYrmtkXcfWK6UijafC/B7uFkY0AP3s/uSlSCxniJ8/KWr/LJ5xki3MZD9GzLJFhcUfNH+AA==
+"@sveltejs/adapter-node@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-0.0.14.tgz#31dcbb0400f546da79da34e8c3c9ec0ed6d2c2a5"
+  integrity sha512-mVCzjk5mTYT28Moa8sAyOJT7Ol0rx9Le8gI6NAOZJ7ECmhWftzz3JqTbYikKx3hNVwxaSMKHal5wCDveP0ZQag==
   dependencies:
-    "@sveltejs/app-utils" "0.0.15"
+    "@sveltejs/app-utils" "0.0.17"
 
-"@sveltejs/app-utils@0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@sveltejs/app-utils/-/app-utils-0.0.15.tgz#6d71f842f30a00584b80adeb8a2f3dcc09a3cf55"
-  integrity sha512-M9xAXus7NHTmHPb1CtYp6Pv4BW77mzP+J/S+6aQa8ohO+CljSz5eilHNfE3I6B9L30tcwVCEd1rJQBtdmhf2SQ==
+"@sveltejs/app-utils@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@sveltejs/app-utils/-/app-utils-0.0.17.tgz#007c53f498ddeaecc08e01dac2a1befb501c79da"
+  integrity sha512-QK6kjzR/w/hS1G9WY1olBPM7gGvi7yf0NE/PT7XpkA9tC8UlIhdIOQHoBbPmlIhlKUd5W8628EGHi815QpgxyQ==
   dependencies:
     mime "^2.4.6"
 
-"@sveltejs/kit@0.0.23":
-  version "0.0.23"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-0.0.23.tgz#f6923d3a9e1cea0043cc8a78c8f246d54b7931ef"
-  integrity sha512-/Du/MDot4NTQAnlHZIXmOl18XQM72AqmypQFhedsRVBcZn+Jbwk+VyhHwt77F8UxcbB4dVt7K3QX1c7yzOM7bw==
+"@sveltejs/kit@0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-0.0.25.tgz#933c9ed3220ff47d8448995051b014e2001d8f3d"
+  integrity sha512-PEZ9Put9ruDX+mEoqr3Jg+jhcxupv6cV3c/j/aiqEgjMGJKy9d5eOFXATF2emQv3rw6eCtHiuNZIYTxt+JqMTQ==
   dependencies:
-    "@sveltejs/app-utils" "0.0.15"
+    "@sveltejs/app-utils" "0.0.17"
     cheap-watch "^1.0.2"
     http-proxy "^1.18.1"
     rollup "^2.32.0"
@@ -209,10 +209,10 @@
     scorta "^1.0.0"
     snowpack "^2.15.1"
 
-"@sveltejs/snowpack-config@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-0.0.4.tgz#27e21f983e6878caf6ff85d83d6824e0eb7d7865"
-  integrity sha512-cnJ+M5EfXmCWZnnyuy/Hg4YG4ZoX1HtCRHZiqgADiD6gJwtnUCoDz2QBF4x+ftnaLKe7iWMkPcfIdlMFUVEqfA==
+"@sveltejs/snowpack-config@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-0.0.5.tgz#c200f91f09ae0213211e50df42323f2b9be90370"
+  integrity sha512-lZQCbeKIwaGMVvWzw4HPo76NIE+MkLH73OapwZlALDurPWR1/fDOSMCFgpNecvr5Gh/y6nzFN6bsdgbpJpw3ng==
   dependencies:
     "@snowpack/plugin-svelte" "^3.0.0"
 
@@ -641,7 +641,14 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-cross-spawn@^7.0.0:
+cross-env@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.2.tgz#bd5ed31339a93a3418ac4f3ca9ca3403082ae5f9"
+  integrity sha512-KZP/bMEOJEDCkDQAyRhu3RL2ZO/SUVrxQVI0G3YEQ+OLbRA3c6zgixe8Mq8a/z7+HKlNEjo8oiLUs8iRijY2Rw==
+  dependencies:
+    cross-spawn "^7.0.1"
+
+cross-spawn@^7.0.0, cross-spawn@^7.0.1:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
@@ -1882,7 +1889,7 @@ postcss@^6.0.1, postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^8.1.6:
+postcss@^8.1.6, postcss@^8.1.9:
   version "8.1.9"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.9.tgz#20ff4b598a6f5015c5f7fe524b8ed5313d7ecade"
   integrity sha512-oWuBpEl1meaMKkQXn0ic78TUrgsMvrAZLE/6ZY0H3LTteq2O3L8PGWwMbPLctpksTJIHjQeossMUMNQW7qRIHQ==

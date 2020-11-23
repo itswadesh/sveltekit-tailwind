@@ -1,3 +1,10 @@
+<style>
+  dt,
+  dd {
+    display: block;
+  }
+</style>
+
 <div class="grid GradientLockup_root__sBkgs">
   <div
     class="flex col-start-2 col-end-3 row-start-2 row-end-4 pl-4 -mr-8 lg:col-start-1 lg:col-end-5 lg:row-end-5 lg:py-10 xl:py-16 sm:mr-0 sm:pl-0">
@@ -12,7 +19,7 @@
         <ul class="flex space-x-2">
           <li>
             <div
-              class="px-4 py-2 rounded-md cursor-pointer bg-amber-100 text-amber-700">
+              class="px-4 py-2 text-yellow-700 bg-yellow-100 rounded-md cursor-pointer">
               Featured
             </div>
           </li>
@@ -40,10 +47,10 @@
           </h2>
           <dl class="flex flex-wrap text-sm font-medium whitespace-pre">
             <div
-              class="absolute top-0 right-0 rounded-full bg-amber-50
-              text-amber-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex
+              class=" absolute top-0 right-0 rounded-full bg-yellow-50
+              text-yellow-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex
               items-center space-x-1">
-              <dt class="text-amber-500">
+              <dt class="text-yellow-500">
                 <span class="sr-only">Rating</span>
                 <svg width="16" height="20" fill="currentColor">
                   <path
@@ -109,10 +116,10 @@
           </h2>
           <dl class="flex flex-wrap text-sm font-medium whitespace-pre">
             <div
-              class="absolute top-0 right-0 rounded-full bg-amber-50
-              text-amber-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex
+              class="absolute top-0 right-0 rounded-full bg-yellow-50
+              text-yellow-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex
               items-center space-x-1">
-              <dt class="text-amber-500">
+              <dt class="text-yellow-500">
                 <span class="sr-only">Rating</span>
                 <svg width="16" height="20" fill="currentColor">
                   <path
@@ -178,10 +185,10 @@
           </h2>
           <dl class="flex flex-wrap text-sm font-medium whitespace-pre">
             <div
-              class="absolute top-0 right-0 rounded-full bg-amber-50
-              text-amber-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex
+              class="absolute top-0 right-0 rounded-full bg-yellow-50
+              text-yellow-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex
               items-center space-x-1">
-              <dt class="text-amber-500">
+              <dt class="text-yellow-500">
                 <span class="sr-only">Rating</span>
                 <svg width="16" height="20" fill="currentColor">
                   <path
