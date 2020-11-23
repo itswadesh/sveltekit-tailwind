@@ -32,10 +32,10 @@
   }
 </style>
 
-<main>
-  <h1>TailwindCSS integration with Svelte Next</h1>
+<main class="container mx-auto">
+  <h1 class="text-4xl bold">TailwindCSS integration with Svelte Next</h1>
   <p>Collection of TailwindCSS components using Svelte</p>
-  <h2>Color Pallets</h2>
+  <h2 class="text-3xl bold">Color Pallets</h2>
   <ul class="space-y-2">
     <li>
       <ul class="grid h-6 grid-cols-10">
@@ -122,9 +122,9 @@
       </ul>
     </li>
   </ul>
-  <h2>Projects</h2>
+  <h2 class="text-3xl bold">Projects</h2>
   <ProjectsList />
-  <h2>e-commerece</h2>
+  <h2 class="text-3xl bold">e-commerece</h2>
   <Food />
   <!-- <Workation /> -->
   <div

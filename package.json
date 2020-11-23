@@ -17,7 +17,7 @@
 		"@sveltejs/snowpack-config": "0.0.4",
 		"autoprefixer": "^10.0.2",
 		"concurrently": "^5.2.0",
-		"postcss-cli": "^7.1.1",
+		"postcss-cli": "^8.3.0",
 		"svelte": "^3.29.0",
 		"svelte-apollo": "^0.4.0",
 		"svelte-feather-icons": "^3.3.0"
