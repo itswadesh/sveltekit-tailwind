@@ -1,6 +1,15 @@
-<script>
-  import Nav from "$components/Nav";
+<script lang="ts">
+  import './_global.postcss'
+  import { theme } from './store'
+  import { onMount } from 'svelte'
+
+  onMount(() => {
+    if ($theme === 'dark') {
+      document.querySelector('html').classList.add('dark')
+    }
+  })
 </script>
 
-<Nav />
-<slot />
+<main>
+  <slot />
+</main>
