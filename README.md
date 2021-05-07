@@ -1,20 +1,19 @@
+## Svelte Commerce Upgraded
+https://github.com/itswadesh/svelte-commerce
+
 ## SvelteKit (vite) with Tailwind
 
 Sveltekit beta was released 8hrs ago. All breaking changes has been addressed in this commit.
 
 ## Demo
 
-![Sveltekit with Tailwind](screenshot.png)
-
-Go to [**Live Demo**](https://sveltekit-tailwind2.netlify.app/)
-
 ## Running the project
 
 Clone this repo and cd to the directory, then run npm or yarn
 
 ```bash
-git clone https://github.com/itswadesh/svelte-next-tailwind.git
-cd svelte-next-tailwind
+git clone https://github.com/itswadesh/sveltekit-tailwind.git
+cd sveltekit-tailwind
 pnpm install ## or npm or yarn
 pnpm run dev
 ```
